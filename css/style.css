@@ -44,6 +44,7 @@ body{
     text-align: center;
     border-radius: 5px;
     margin-top: 20px;
+    font-weight: bolder;
 }
 
 #button-1{
@@ -54,8 +55,9 @@ body{
 
 #button-2{
     background-color: white;
-    color: gray;
+    color: rgb(212, 212, 212);
     margin-left: 5px;
+    border-color: rgb(212, 212, 212);
 }
 
 .list-container{
