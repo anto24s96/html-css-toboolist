@@ -6,6 +6,12 @@
 
 header{
     height: 120px;
+    position: static;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(242, 242, 242);
 }
 
 #logo{
@@ -18,3 +24,34 @@ header{
     font-size: 65px;
     vertical-align: middle;
 }
+
+.button-container{
+    width: 1000px;
+    height: 65px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button{
+    line-height: 2;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#button-1{
+    background-color: rgb(0, 166, 255);
+    color: white;
+    margin-left: 55px;
+}
+
+#button-2{
+    background-color: white;
+    color: gray;
+    margin-left: 5px;
+}
+
