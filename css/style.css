@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 header{
@@ -16,13 +18,14 @@ body{
 
 #logo{
     width: 80px;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 20px 30px;
     vertical-align: middle;
 }
 
 #logo-text{
     font-size: 65px;
     vertical-align: middle;
+    font-weight: bolder;
 }
 
 .button-container{
@@ -63,7 +66,7 @@ body{
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 50px;
+    padding: 55px;
 }
 
 .list-top{
@@ -81,7 +84,7 @@ body{
 }
 .list-title{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .sub-title{
@@ -106,6 +109,7 @@ body{
 .category{
     padding: 8px;
     border-radius: 15px;
+    font-size: 12px;
 }
 
 .editorial{
